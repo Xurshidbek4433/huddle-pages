@@ -1,0 +1,11 @@
+.header-btn {
+  @include button(1.3rem, 1.5rem, 10px, 10px, 100%, 220px);
+}
+
+.hero-btn {
+  @include button(1.7rem, 2rem, 10px, 10px, 100%, 300px);
+}
+
+.features-btn {
+  @include button(2.5rem, 2.5rem, 10px, 10px, 100%, 42px);
+}

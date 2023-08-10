@@ -1,13 +1,11 @@
 *,*::after,*::before {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+   @include reset;
 }
 
-*:focus {
-    // outline: ;
-    // outline-offset: ;
-}
+// *:focus {
+//     // outline: ;
+//     // outline-offset: ;
+// }
 
 html {
     scroll-behavior: smooth;
